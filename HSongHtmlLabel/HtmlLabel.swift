@@ -27,7 +27,7 @@ public class HTMLLabel: UIView, DTAttributedTextContentViewDelegate, DTLazyImage
     }
     /* 内部参数(从接口获取的数据以及其他内部数据) */
     // 必须先设置text，才能自动计算出height
-    private(set) var thisHeight = CGFloat()
+    public private(set) var thisHeight = CGFloat()
     private var thisWidth = CGFloat()
     
     //MARK: - 逻辑区
@@ -57,7 +57,7 @@ public class HTMLLabel: UIView, DTAttributedTextContentViewDelegate, DTLazyImage
         normalLabel.backgroundColor = .clear
     }
     
-    func setHtmlText(htmlText: String, labelWidth: CGFloat = UIConfigure.Width - UIConfigure.SizeScale * 120 - UIConfigure.SizeScale * 24) {
+    public func setHtmlText(htmlText: String, labelWidth: CGFloat = UIConfigure.Width - UIConfigure.SizeScale * 120 - UIConfigure.SizeScale * 24) {
     
         self.htmlLabel.isHidden = false
         self.normalLabel.isHidden = true
@@ -68,7 +68,7 @@ public class HTMLLabel: UIView, DTAttributedTextContentViewDelegate, DTLazyImage
         print(self.thisHeight)
     }
     
-    func setNormalText(normalText: String, labelWidth: CGFloat = UIConfigure.Width - UIConfigure.SizeScale * 120 - UIConfigure.SizeScale * 24, font: UIFont, lineSpacing: CGFloat = 0) {
+    public func setNormalText(normalText: String, labelWidth: CGFloat = UIConfigure.Width - UIConfigure.SizeScale * 120 - UIConfigure.SizeScale * 24, font: UIFont, lineSpacing: CGFloat = 0) {
         self.htmlLabel.isHidden = true
         self.normalLabel.isHidden = false
         self.normalText = normalText

@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name        = "HSongHtmlLabel"
-  s.version     = "0.0.9"
+  s.version     = "0.1.0"
   s.summary     = "Let your UILabel load html tags"
   s.homepage    = "https://github.com/Thered-key/HSongHtmlLabel"
   s.license     = { :type => "MIT" }
