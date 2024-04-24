@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name        = "HSongHtmlLabel"
-  s.version     = "0.0.3"
+  s.version     = "0.0.4"
   s.summary     = "Let your UILabel load html tags"
   s.homepage    = "https://github.com/Thered-key/HSongHtmlLabel"
   s.license     = { :type => "MIT" }
@@ -16,6 +16,7 @@ Pod::Spec.new do |s|
 
   s.source   = { :git => "https://github.com/Thered-key/HSongHtmlLabel.git", :tag => s.version }
   s.source_files = "HSongHtmlLabel/*.swift"
+  s.public_header_files = "HSongHtmlLabel/*.h"
 
   s.dependency 'DTCoreText'
 
