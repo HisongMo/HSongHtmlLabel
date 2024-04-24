@@ -11,7 +11,8 @@
 		9BD9555C2BD8A0E300D09F13 /* HSongHtmlLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BD9555B2BD8A0E300D09F13 /* HSongHtmlLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9BD955662BD8A22500D09F13 /* HtmlLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD955632BD8A22500D09F13 /* HtmlLabel.swift */; };
 		9BD9556D2BD8A37A00D09F13 /* UIConfigure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD9556C2BD8A37A00D09F13 /* UIConfigure.swift */; };
-		9BD9559E2BD8AE6200D09F13 /* HSongHtmlLabelTool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BD9559D2BD8AE6200D09F13 /* HSongHtmlLabelTool.framework */; platformFilter = ios; };
+		9BD955A12BD8D19F00D09F13 /* HtmlLabelTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BD9559F2BD8D19F00D09F13 /* HtmlLabelTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9BD955A22BD8D19F00D09F13 /* HtmlLabelTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD955A02BD8D19F00D09F13 /* HtmlLabelTools.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,7 +21,8 @@
 		9BD9555B2BD8A0E300D09F13 /* HSongHtmlLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSongHtmlLabel.h; sourceTree = "<group>"; };
 		9BD955632BD8A22500D09F13 /* HtmlLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HtmlLabel.swift; sourceTree = "<group>"; };
 		9BD9556C2BD8A37A00D09F13 /* UIConfigure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIConfigure.swift; sourceTree = "<group>"; };
-		9BD9559D2BD8AE6200D09F13 /* HSongHtmlLabelTool.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HSongHtmlLabelTool.framework; sourceTree = "<group>"; };
+		9BD9559F2BD8D19F00D09F13 /* HtmlLabelTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HtmlLabelTools.h; sourceTree = "<group>"; };
+		9BD955A02BD8D19F00D09F13 /* HtmlLabelTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HtmlLabelTools.m; sourceTree = "<group>"; };
 		A2C1BF4F3AA79316894B83B0 /* Pods_HSongHtmlLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HSongHtmlLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D464FBB7097B7C8E7B2BB8F6 /* Pods-HSongHtmlLabel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HSongHtmlLabel.debug.xcconfig"; path = "Target Support Files/Pods-HSongHtmlLabel/Pods-HSongHtmlLabel.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -30,7 +32,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BD9559E2BD8AE6200D09F13 /* HSongHtmlLabelTool.framework in Frameworks */,
 				3C9A3989DB6ACFA87EF91A97 /* Pods_HSongHtmlLabel.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -41,7 +42,6 @@
 		2CB37C1CEEF17BDBBD7DC8F9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9BD9559D2BD8AE6200D09F13 /* HSongHtmlLabelTool.framework */,
 				A2C1BF4F3AA79316894B83B0 /* Pods_HSongHtmlLabel.framework */,
 			);
 			name = Frameworks;
@@ -71,6 +71,8 @@
 				9BD9555B2BD8A0E300D09F13 /* HSongHtmlLabel.h */,
 				9BD955632BD8A22500D09F13 /* HtmlLabel.swift */,
 				9BD9556C2BD8A37A00D09F13 /* UIConfigure.swift */,
+				9BD9559F2BD8D19F00D09F13 /* HtmlLabelTools.h */,
+				9BD955A02BD8D19F00D09F13 /* HtmlLabelTools.m */,
 			);
 			path = HSongHtmlLabel;
 			sourceTree = "<group>";
@@ -91,6 +93,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BD955A12BD8D19F00D09F13 /* HtmlLabelTools.h in Headers */,
 				9BD9555C2BD8A0E300D09F13 /* HSongHtmlLabel.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -190,6 +193,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BD955A22BD8D19F00D09F13 /* HtmlLabelTools.m in Sources */,
 				9BD955662BD8A22500D09F13 /* HtmlLabel.swift in Sources */,
 				9BD9556D2BD8A37A00D09F13 /* UIConfigure.swift in Sources */,
 			);

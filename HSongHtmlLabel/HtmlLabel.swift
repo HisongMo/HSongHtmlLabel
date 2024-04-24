@@ -7,7 +7,6 @@
 
 import UIKit
 import DTCoreText
-import HSongHtmlLabelTool
 ///
 public class HTMLLabel: UIView, DTAttributedTextContentViewDelegate, DTLazyImageViewDelegate {
     

@@ -1,6 +1,0 @@
-framework module HSongHtmlLabelTool {
-  umbrella header "HSongHtmlLabelTool.h"
-  export *
-
-  module * { export * }
-}

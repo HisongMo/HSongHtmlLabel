@@ -6,6 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <HSongHtmlLabel/HtmlLabelTools.h>
 
 //! Project version number for HSongHtmlLabel.
 FOUNDATION_EXPORT double HSongHtmlLabelVersionNumber;
