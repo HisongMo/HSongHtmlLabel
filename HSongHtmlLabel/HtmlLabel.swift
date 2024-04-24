@@ -57,7 +57,7 @@ public class HTMLLabel: UIView, DTAttributedTextContentViewDelegate, DTLazyImage
         normalLabel.backgroundColor = .clear
     }
     
-    public func setHtmlText(htmlText: String, labelWidth: CGFloat = UIConfigure.Width - UIConfigure.SizeScale * 120 - UIConfigure.SizeScale * 24) {
+    func setHtmlText(htmlText: String, labelWidth: CGFloat = UIConfigure.Width - UIConfigure.SizeScale * 120 - UIConfigure.SizeScale * 24) {
     
         self.htmlLabel.isHidden = false
         self.normalLabel.isHidden = true
@@ -68,7 +68,7 @@ public class HTMLLabel: UIView, DTAttributedTextContentViewDelegate, DTLazyImage
         print(self.thisHeight)
     }
     
-    public func setNormalText(normalText: String, labelWidth: CGFloat = UIConfigure.Width - UIConfigure.SizeScale * 120 - UIConfigure.SizeScale * 24, font: UIFont, lineSpacing: CGFloat = 0) {
+    func setNormalText(normalText: String, labelWidth: CGFloat = UIConfigure.Width - UIConfigure.SizeScale * 120 - UIConfigure.SizeScale * 24, font: UIFont, lineSpacing: CGFloat = 0) {
         self.htmlLabel.isHidden = true
         self.normalLabel.isHidden = false
         self.normalText = normalText
